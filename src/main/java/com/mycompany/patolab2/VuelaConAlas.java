@@ -1,4 +1,4 @@
 package com.mycompany.patolab2;
-public interface Cuaqueable{
-   
+public class VuelaConAlas {
+    
 }

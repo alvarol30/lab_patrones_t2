@@ -1,13 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.patolab2;
-
-/**
- *
- * @author sistemas
- */
-public class Pato {
+public abstract class Pato{
+    protected Volable volable;
+    protected Cuaqueable cuaqueable;
+    
+    public Pato(){
+        
+    }
+    public void setVolable(Volable fb){
+        
+    }
+    public void setCuaqueable(Cuaqueable qb){
+        this.cuaqueable= qb;
+    }
+    public abstract void mostrar();
+    
     
 }
