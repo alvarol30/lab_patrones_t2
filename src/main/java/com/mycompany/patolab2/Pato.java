@@ -3,16 +3,24 @@ public abstract class Pato{
     protected Volable volable;
     protected Cuaqueable cuaqueable;
     
-    public Pato(){
-        
-    }
+    public Pato(){}
     public void setVolable(Volable fb){
-        
+        this.volable= fb;
     }
     public void setCuaqueable(Cuaqueable qb){
         this.cuaqueable= qb;
     }
-    public abstract void mostrar();
+    protected abstract void mostrar();
+    public void realizarVuelo(){
+        
+    }
     
+    public void realizarCuaqueo(){
+        
+    }
+    
+    public void nadar(){
+        
+    }
     
 }
